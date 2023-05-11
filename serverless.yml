@@ -13,7 +13,6 @@ functions:
         runtime: php-82-fpm
         timeout: 28 # in seconds (API Gateway has a timeout of 29 seconds)
         url: true
-        brefLive: true
 
 package:
   patterns:
