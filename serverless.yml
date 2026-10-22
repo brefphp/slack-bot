@@ -1,11 +1,15 @@
 service: bref-slack-bot
 
+bref:
+    team: bref
+
 provider:
     name: aws
     stage: prod
     region: us-east-1
     environment:
         APP_ENV: production
+        APP_DEBUG: 'false'
 
 functions:
     web:
