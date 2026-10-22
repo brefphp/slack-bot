@@ -28,4 +28,3 @@ package:
 
 plugins:
   - ./vendor/bref/bref
-  - '@bref.sh/live'
